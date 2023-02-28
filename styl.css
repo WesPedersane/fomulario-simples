@@ -1,0 +1,54 @@
+    * {
+        margin-top: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: sans-serif;
+
+
+
+    }
+
+    h1 {
+        margin-top: 20px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: underline;
+    }
+
+    p {
+        text-decoration: underline;
+        margin-left: 40%;
+        margin-top: 0%;
+    }
+
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+
+        background: linear-gradient(to right, rgb(219, 112, 214), rgb(36, 219, 219));
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+    }
+
+    button {
+        border: none;
+        border-radius: 40px;
+        outline: none;
+
+    }
+
+    button :hover {
+        background-color: darkgray;
+        cursor: pointer;
+
+    }
+
+    input {
+        border: none;
+        border-radius: 0.5px;
+        background-color: rgb(216, 170, 214);
+    }
